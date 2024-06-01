@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The &lt;PROGRESS&gt; tag &mdash; novxlib documentation 4.1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=3c33c51c"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The &lt;PROJECT&gt; tag" href="project.html" />
+    <link rel="prev" title="The &lt;POINT&gt; tag" href="point.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            novxlib documentation
+          </a>
+              <div class="version">
+                Version 4.1+
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="the_novx_file_format.html">The novx file format</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="arc.html">The &lt;ARC&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arcs.html">The &lt;ARCS&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="aka.html">The &lt;Aka&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="author.html">The &lt;Author&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bio.html">The &lt;Bio&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="birthdate.html">The &lt;BirthDate&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter.html">The &lt;CHAPTER&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapters.html">The &lt;CHAPTERS&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="character.html">The &lt;CHARACTER&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="characters.html">The &lt;CHARACTERS&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapterheadingprefix.html">The &lt;ChapterHeadingPrefix&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapterheadingsuffix.html">The &lt;ChapterHeadingSuffix&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_characters.html">The &lt;Characters&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="conflict.html">The &lt;Conflict&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="content.html">The &lt;Content&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="count.html">The &lt;Count&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="customcharacterization.html">The &lt;CustomCharacterization&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="customchrbio.html">The &lt;CustomChrBio&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="customchrgoals.html">The &lt;CustomChrGoals&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="customconflict.html">The &lt;CustomConflict&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="customgoal.html">The &lt;CustomGoal&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="customoutcome.html">The &lt;CustomOutcome&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="customplotprogress.html">The &lt;CustomPlotProgress&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="customworldbuilding.html">The &lt;CustomWorldBuilding&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date.html">The &lt;Date&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="day.html">The &lt;Day&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deathdate.html">The &lt;DeathDate&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="desc.html">The &lt;Desc&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fullname.html">The &lt;FullName&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fullpath.html">The &lt;FullPath&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="goal.html">The &lt;Goal&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="goals.html">The &lt;Goals&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="item.html">The &lt;ITEM&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="items.html">The &lt;ITEMS&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_items.html">The &lt;Items&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="location.html">The &lt;LOCATION&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="locations.html">The &lt;LOCATIONS&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lastsdays.html">The &lt;LastsDays&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lastshours.html">The &lt;LastsHours&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="lastsminutes.html">The &lt;LastsMinutes&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="link.html">The &lt;Link&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_locations.html">The &lt;Locations&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="notes.html">The &lt;Notes&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="outcome.html">The &lt;Outcome&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="point.html">The &lt;POINT&gt; tag</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">The &lt;PROGRESS&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project.html">The &lt;PROJECT&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="projectnote.html">The &lt;PROJECTNOTE&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="projectnotes.html">The &lt;PROJECTNOTES&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="partheadingprefix.html">The &lt;PartHeadingPrefix&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="partheadingsuffix.html">The &lt;PartHeadingSuffix&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="path.html">The &lt;Path&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotlinenotes.html">The &lt;PlotlineNotes&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="referencedate.html">The &lt;ReferenceDate&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="section.html">The &lt;SECTION&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_section.html">The &lt;Section&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sections.html">The &lt;Sections&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shortname.html">The &lt;ShortName&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tags.html">The &lt;Tags&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="time.html">The &lt;Time&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="title.html">The &lt;Title&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wc.html">The &lt;WC&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="withunused.html">The &lt;WithUnused&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wordcountstart.html">The &lt;WordCountStart&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wordtarget.html">The &lt;WordTarget&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comment.html">The &lt;comment&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="creator.html">The &lt;creator&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_date.html">The &lt;date&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="em.html">The &lt;em&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="li.html">The &lt;li&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="note.html">The &lt;note&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="note-citation.html">The &lt;note-citation&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="novx.html">The &lt;novx&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="p.html">The &lt;p&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="span.html">The &lt;span&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="strong.html">The &lt;strong&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ul.html">The &lt;ul&gt; tag</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">novxlib documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="the_novx_file_format.html">The novx file format</a></li>
+      <li class="breadcrumb-item active">The &lt;PROGRESS&gt; tag</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="the-progress-tag">
+<h1>The &lt;PROGRESS&gt; tag<a class="headerlink" href="#the-progress-tag" title="Link to this heading"></a></h1>
+<div class="admonition-progress admonition">
+<p class="admonition-title">&lt;PROGRESS&gt;</p>
+<p>Purpose</p>
+<dl class="simple">
+<dt>Content</dt><dd><ul class="simple">
+<li><p><a class="reference external" href="wc.html">WC</a></p></li>
+</ul>
+</dd>
+</dl>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="point.html" class="btn btn-neutral float-left" title="The &lt;POINT&gt; tag" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="project.html" class="btn btn-neutral float-right" title="The &lt;PROJECT&gt; tag" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, peter88213.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

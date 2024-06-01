@@ -1,10 +1,85 @@
 ====================
 The novx file format
 ====================
-
+   
 .. toctree::
    :maxdepth: 1
    :caption: XML tags
-   
+
+   arc
+   arcs
+   aka
+   author
+   bio
+   birthdate
+   chapter
+   chapters
+   character
+   characters
+   chapterheadingprefix
+   chapterheadingsuffix
+   _characters
+   conflict
+   content
+   count
+   customcharacterization
+   customchrbio
+   customchrgoals
+   customconflict
+   customgoal
+   customoutcome
+   customplotprogress
+   customworldbuilding
+   date
+   day
+   deathdate
+   desc
+   fullname
+   fullpath
+   goal
+   goals
+   item
+   items
+   _items
+   location
+   locations
+   lastsdays
+   lastshours
+   lastsminutes
+   link
+   _locations
+   notes
+   outcome
+   point
+   progress
+   project
+   projectnote
+   projectnotes
+   partheadingprefix
+   partheadingsuffix
+   path
+   plotlinenotes
+   referencedate
+   section
+   _section
+   sections
+   shortname
+   tags
+   time
+   title
+   wc
+   withunused
+   wordcountstart
+   wordtarget
+   comment
+   creator
+   _date
+   em
+   li
+   note
+   note-citation
    novx
-   PROJECT
+   p
+   span
+   strong
+   ul
