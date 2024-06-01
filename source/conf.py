@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'novxlib Online documentation'
+project = 'novxlib documentation'
 copyright = '2024, peter88213'
 author = 'Peter Triesberger'
 version = 'Version 4.1+'

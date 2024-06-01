@@ -1,6 +1,6 @@
-============================
-novxlib Online documentation
-============================
+=====================
+novxlib documentation
+=====================
 
 This page refers to the latest `novxlib <https://github.com/peter88213/novxlib/>`__
 release.
