@@ -5,7 +5,7 @@ The <Date> tag
 .. admonition:: <Date>
    
    Purpose
-      Defines the start date of a section.
+      Defines the section's narrative start date.
    
    Content
       Plain text 

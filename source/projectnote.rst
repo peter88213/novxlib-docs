@@ -5,6 +5,7 @@ The <PROJECTNOTE> tag
 .. admonition:: <PROJECTNOTE>
    
    Purpose
+      Defines a project note.
 
    Attributes
       - `id <#the-id-attribute>`__

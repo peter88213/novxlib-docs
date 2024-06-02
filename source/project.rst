@@ -1,10 +1,11 @@
 =================
 The <PROJECT> tag
 =================
-   
+
 .. admonition:: <PROJECT>
    
    Purpose
+      Defines the project settings.
 
    Attributes
       - `renumberChapters <#the-renumberchapters-attribute>`__
@@ -39,59 +40,59 @@ The <PROJECT> tag
 The renumberChapters attribute
 ------------------------------
 
-- 0: 
-- 1: 
+- 0:
+- 1:
 
 Default value: 0
 
 The workPhase attribute
 -----------------------
 
-- 0: 
-- 1: 
-- 2: 
-- 3: 
-- 4: 
-- 5: 
+- 0:
+- 1:
+- 2:
+- 3:
+- 4:
+- 5:
 
 Default value: 0
 
 The saveWordCount attribute
 ---------------------------
 
-- 0: 
-- 1: 
+- 0:
+- 1:
 
 Default value: 0
 
 The romanPartNumbers attribute
 ------------------------------
 
-- 0: 
-- 1: 
+- 0:
+- 1:
 
 Default value: 0
 
 The romanChapterNumbers attribute
 ---------------------------------
 
-- 0: 
-- 1: 
+- 0:
+- 1:
 
 Default value: 0
 
 The renumberWithinParts attribute
 ---------------------------------
 
-- 0: 
-- 1: 
+- 0:
+- 1:
 
 Default value: 0
 
 The renumberParts attribute
 ---------------------------
 
-- 0: 
-- 1: 
+- 0:
+- 1:
 
 Default value: 0

@@ -5,7 +5,7 @@ The <LastsDays> tag
 .. admonition:: <LastsDays>
    
    Purpose
-      Defines the full number of days the section lasts.
+      Defines the full number of days the section narrative lasts.
    
    Content
       Plain text 

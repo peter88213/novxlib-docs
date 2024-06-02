@@ -5,9 +5,10 @@ The <span> tag
 .. admonition:: <span>
    
    Purpose
+      Defines a text area that is not in the document language.
 
    Attributes
-      - `lang <#the-lang-attribute>`__
+      - `xml:lang <#the-xml-lang-attribute>`__
 
    Content
       - `em <em.html>`__
@@ -16,7 +17,11 @@ The <span> tag
       - `note <note.html>`__
       Plain text 
 
-The lang attribute
-------------------
+The span is within a paragraph. Whole paragraphs in another language
+than the document language get the
 
-Default: required
+The xml:lang attribute
+----------------------
+
+The required locale is for ODF document spell check control.
+

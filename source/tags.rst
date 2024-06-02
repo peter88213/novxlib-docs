@@ -5,7 +5,7 @@ The <Tags> tag
 .. admonition:: <Tags>
    
    Purpose
-      Defines the tags of an element.
+      Defines the element's tags.
 
    Content
       Plain text 

@@ -2,10 +2,10 @@
 The <Title> tag
 ===============
 
-.. admonition:: <Title>
+.. admonition:: <Tіtle>
    
    Purpose
-      Defines the title of an element.
+      Defines the element's title.
 
    Content
       Plain text 

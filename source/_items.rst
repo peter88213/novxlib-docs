@@ -5,7 +5,7 @@ The <Items> tag
 .. admonition:: <Items>
    
    Purpose
-      List the items that are related to the section.
+      Lists the items that are related to the section.
 
    Attributes
       - `ids <#the-ids-attribute>`__

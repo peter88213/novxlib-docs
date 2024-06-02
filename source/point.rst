@@ -5,7 +5,7 @@ The <POINT> tag
 .. admonition:: <POINT>
    
    Purpose
-      Defines a Plot point.
+      Defines a plot point.
 
    Attributes
       - `id <#the-id-attribute>`__

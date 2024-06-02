@@ -5,6 +5,7 @@ The <SECTION> tag
 .. admonition:: <SECTION>
    
    Purpose
+      Defines a section.
 
    Attributes
       - `id <#the-id-attribute>`__

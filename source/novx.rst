@@ -9,7 +9,7 @@ The <novx> tag
 
    Attributes
       - `version <#the-version-attribute>`__
-      - `lang <#the-lang-attribute>`__
+      - `xml:lang <#the-xml-lang-attribute>`__
 
    Content
       - `PROJECT <project.html>`__
@@ -33,7 +33,7 @@ minor version numbers against its built-in reference version number.
 - The major version number must match the internal reference.
 - The minor version number must be equal or less then the reference.
 
-The lang attribute
-------------------
+The xml:lang attribute
+----------------------
 
-The locale is for ODF document spell check control.
+The optional locale is for ODF document spell check control.

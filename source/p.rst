@@ -9,7 +9,7 @@ The <p> tag
 
    Attributes
       - `style <#the-style-attribute>`__
-      - `lang <#the-lang-attribute>`__
+      - `xml:lang <#the-xml-lang-attribute>`__
 
    Content
       - `em <em.html>`__
@@ -28,7 +28,8 @@ The style attribute
 
 Default value: None
 
-The lang attribute
-------------------
+The xml:lang attribute
+----------------------
 
-Default: implied
+The optional locale is for ODF document spell check control.
+

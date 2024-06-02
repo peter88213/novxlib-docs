@@ -5,7 +5,7 @@ The <creator> tag
 .. admonition:: <creator>
    
    Purpose
-      Defines the creator of a comment.
+      Defines the creator of the comment.
 
    Content
       Plain text 

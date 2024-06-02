@@ -5,7 +5,7 @@ The <Link> tag
 .. admonition:: <Link>
    
    Purpose
-      Defines a linked file.
+      Defines a link to a file.
 
    Content
       - `Title <title.html>`__

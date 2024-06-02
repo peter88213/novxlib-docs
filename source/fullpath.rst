@@ -5,7 +5,7 @@ The <FullPath> tag
 .. admonition:: <FullPath>
    
    Purpose
-      Defines the full path to a linked file.
+      Defines the full path to the linked file.
 
    Content
       Plain text 

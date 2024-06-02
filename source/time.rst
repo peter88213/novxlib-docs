@@ -5,7 +5,7 @@ The <Time> tag
 .. admonition:: <Time>
    
    Purpose
-      Defines the start time of a section.
+      Defines the section's narrative start time.
 
    Content
       Plain text 

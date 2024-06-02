@@ -5,7 +5,7 @@ The <Notes> tag
 .. admonition:: <Notes>
    
    Purpose
-      Defines notes for an element such as section, chapter etc.
+      Defines notes for the element.
 
    Content
       - `p <p.html>`__
