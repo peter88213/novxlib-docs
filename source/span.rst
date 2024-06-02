@@ -25,3 +25,8 @@ The xml:lang attribute
 
 The required locale is for ODF document spell check control.
 
+The attribute has the form ``<Language code>-<Country code>``,
+where the language code is according to ISO 639-1,
+and the country code is according to ISO 3166-2.
+
+Example: ``en-GB`` is for British English.

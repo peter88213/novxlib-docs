@@ -47,38 +47,38 @@ Example: ``sc13``
 The append attribute
 --------------------
 
-- 0:
-- 1:
+- 0: Put a section separator between this section and the previous one.
+- 1: Append this section to the previous one without a section separator.
 
 Default value: 0
 
 The scene attribute
 -------------------
 
-- 0:
-- 1:
-- 2:
-- 3:
+- 0: Not a scene.
+- 1: Action scene.
+- 2: Reaction scene.
+- 3: Other scene.
 
 Default value: 0
 
 The status attribute
 --------------------
 
-- 1:
-- 2:
-- 3:
-- 4:
-- 5:
+- 1: Outline.
+- 2: Draft.
+- 3: First Edit.
+- 4: Second Edit.
+- 5: Done.
 
 Default value: 1
 
 The type attribute
 ------------------
 
-- 0:
-- 1:
-- 2:
-- 3:
+- 0: Normal section.
+- 1: Unused section.
+- 2: Level 1 stage.
+- 3: Level 2 stage.
 
 Default value: 0

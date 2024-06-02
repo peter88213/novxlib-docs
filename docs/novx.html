@@ -199,6 +199,16 @@ minor version numbers against its built-in reference version number.</p>
 <section id="the-xml-lang-attribute">
 <h2>The xml:lang attribute<a class="headerlink" href="#the-xml-lang-attribute" title="Link to this heading"></a></h2>
 <p>The optional locale is for ODF document spell check control.</p>
+<p>The attribute has the form <code class="docutils literal notranslate"><span class="pre">&lt;Language</span> <span class="pre">code&gt;-&lt;Country</span> <span class="pre">code&gt;</span></code>,
+where the language code is according to ISO 639-1,
+and the country code is according to ISO 3166-2.</p>
+<p>Example: <code class="docutils literal notranslate"><span class="pre">en-GB</span></code> is for British English.</p>
+<ul class="simple">
+<li><p>If the <em>xml:lang</em> attribute is not set, the system locale is used.</p></li>
+<li><p>If the <em>xml:lang</em> attribute does not look plausible,
+it is replaced with <em>zxx-none</em>,
+which means “no linguistic information at all”.</p></li>
+</ul>
 </section>
 </section>
 
