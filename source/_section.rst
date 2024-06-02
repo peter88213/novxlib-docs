@@ -5,7 +5,7 @@ The <Section> tag
 .. admonition:: <Section>
    
    Purpose
-      Defines a section reference of a plot point.
+      Defines a section reference of the plot point.
 
    Attributes
       - `id <#the-id-attribute>`__

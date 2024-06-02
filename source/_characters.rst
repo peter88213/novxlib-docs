@@ -5,7 +5,7 @@ The <Characters> tag
 .. admonition:: <Characters>
    
    Purpose
-      List the characters that are related to a section.
+      List the characters that are related to the section.
 
    Attributes
       - `ids <#the-ids-attribute>`__
@@ -27,5 +27,5 @@ The ids attribute
 
 This attribute is required. A character ID consists of the
 character prefix **cr** and a number.
-The IDs are separated by spaces.
+Multiple IDs are separated by spaces.
 

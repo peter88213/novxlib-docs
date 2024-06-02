@@ -7,6 +7,8 @@ The <creator> tag
    Purpose
       Defines the creator of a comment.
 
+   Content
+      Plain text 
 
 Example:
 

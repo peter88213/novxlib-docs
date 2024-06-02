@@ -5,7 +5,7 @@ The <Locations> tag
 .. admonition:: <Locations>
    
    Purpose
-      List the locations that are related to a section.
+      List the locations that are related to the section.
 
    Attributes
       - `ids <#the-ids-attribute>`__
@@ -23,4 +23,4 @@ The ids attribute
 
 This attribute is required. A location ID consists of the
 location prefix **lc** and a number.
-The IDs are separated by spaces.
+Multiple IDs are separated by spaces.

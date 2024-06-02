@@ -7,6 +7,5 @@ The <ITEMS> tag
    Purpose
       Encloses the item definitions.
 
-
    Content
       - `ITEM <item.html>`__

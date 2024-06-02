@@ -5,7 +5,7 @@ The <date> tag
 .. admonition:: <date>
    
    Purpose
-      Defines creation date of a comment.
+      Defines creation date of the comment.
 
 Date format: *YYYY-MM-DDThh:mm:ss*, according to ISO 8601.
 

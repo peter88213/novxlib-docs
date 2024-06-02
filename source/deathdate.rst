@@ -10,5 +10,3 @@ The <DeathDate> tag
    Content
       Plain text 
     
-
-

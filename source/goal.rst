@@ -7,7 +7,6 @@ The <Goal> tag
    Purpose
       Defines the first "scene" field in the section properties. 
 
-
    Content
       - `p <p.html>`__
 

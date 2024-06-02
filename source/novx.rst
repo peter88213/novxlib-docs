@@ -1,10 +1,11 @@
 ==============
 The <novx> tag
 ==============
-   
+
 .. admonition:: <novx>
    
    Purpose
+      Encloses the whole *novelibre* project.
 
    Attributes
       - `version <#the-version-attribute>`__

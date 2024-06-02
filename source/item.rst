@@ -5,6 +5,7 @@ The <ITEM> tag
 .. admonition:: <ITEM>
    
    Purpose
+      Defines an item in the story world.
 
    Attributes
       - `id <#the-id-attribute>`__

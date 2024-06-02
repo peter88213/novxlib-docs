@@ -5,7 +5,7 @@ The <Items> tag
 .. admonition:: <Items>
    
    Purpose
-      List the items that are related to a section.
+      List the items that are related to the section.
 
    Attributes
       - `ids <#the-ids-attribute>`__
@@ -23,5 +23,5 @@ The ids attribute
 
 This attribute is required. An item ID consists of the
 item prefix **it** and a number.
-The IDs are separated by spaces.
+Multiple IDs are separated by spaces.
 

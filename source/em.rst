@@ -5,7 +5,7 @@ The <em> tag
 .. admonition:: <em>
    
    Purpose
-
+      Defines text that is emphasized.
 
    Content
       - `span <span.html>`__

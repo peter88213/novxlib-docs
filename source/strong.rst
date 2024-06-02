@@ -5,7 +5,7 @@ The <strong> tag
 .. admonition:: <strong>
    
    Purpose
-
+      Defines text that is strongly emphasized.
 
    Content
       - `span <span.html>`__

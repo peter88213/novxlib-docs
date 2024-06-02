@@ -5,6 +5,7 @@ The <p> tag
 .. admonition:: <p>
    
    Purpose
+      Defines a paragraph.
 
    Attributes
       - `style <#the-style-attribute>`__
@@ -17,6 +18,8 @@ The <p> tag
       - `comment <comment.html>`__
       - `note <note.html>`__
       - Plain text
+
+All multiline text is put into paragraphs.
 
 The style attribute
 -------------------

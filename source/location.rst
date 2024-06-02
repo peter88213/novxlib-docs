@@ -5,7 +5,7 @@ The <LOCATION> tag
 .. admonition:: <LOCATION>
    
    Purpose
-      Defines a location.
+      Defines a location in the story world.
 
    Attributes
       - `id <#the-id-attribute>`__

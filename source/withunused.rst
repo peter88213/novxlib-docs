@@ -5,8 +5,9 @@ The <WithUnused> tag
 .. admonition:: <WithUnused>
    
    Purpose
-      Defines the word count including unused sections.
+      Defines the total number of words including unused sections.
 
    Content
       Plain text 
 
+The content must represent an integer number.

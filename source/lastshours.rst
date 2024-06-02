@@ -5,8 +5,16 @@ The <LastsHours> tag
 .. admonition:: <LastsHours>
    
    Purpose
-      Defines the number of hours the section lasts.
+      Defines the full number of hours minus days the section lasts.
 
    Content
       Plain text 
+
+This is optional.
+The content must represent an integer number.
+The section duration is the sum of
+`LastsDays <lastsdays.html>`__,
+LastsHours,
+and
+`LastsMinutes <lastsminutes.html>`__.
 

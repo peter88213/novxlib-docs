@@ -7,7 +7,6 @@ The <Conflict> tag
    Purpose
       Defines the second "scene" field in the section properties. 
 
-
    Content
       - `p <p.html>`__
 
