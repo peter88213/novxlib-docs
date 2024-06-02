@@ -1,10 +1,11 @@
 ====================
 The <CHARACTERS> tag
 ====================
-   
+
 .. admonition:: <CHARACTERS>
    
    Purpose
+      Enclose the character definitions.
 
 
    Content

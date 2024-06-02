@@ -162,8 +162,9 @@
 <h1>The &lt;PlotlineNotes&gt; tag<a class="headerlink" href="#the-plotlinenotes-tag" title="Link to this heading"></a></h1>
 <div class="admonition-plotlinenotes admonition">
 <p class="admonition-title">&lt;PlotlineNotes&gt;</p>
-<p>Purpose</p>
 <dl class="simple">
+<dt>Purpose</dt><dd><p>Defines plot line notes of a section.</p>
+</dd>
 <dt>Attributes</dt><dd><ul class="simple">
 <li><p><a class="reference external" href="#the-id-attribute">id</a></p></li>
 </ul>
@@ -174,15 +175,22 @@
 </dd>
 </dl>
 </div>
-<p>The plot line notes describe how a section contributes to
+<p>Plot line notes are entered in the section’s “Plot” area in <em>novelibre</em>.
+The plot line notes describe how a section contributes to
 the plot line identified by the <strong>id</strong> attribute.
-The plot line notes consist of one or more paragraphs.</p>
+They are optional and consist of one or more paragraphs.
+Highlighting or other formatting is not supported.</p>
+<p>Example:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;PlotlineNotes</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;ac2&quot;</span><span class="nt">&gt;</span>
+<span class="w">   </span><span class="nt">&lt;p&gt;</span>The<span class="w"> </span>gun<span class="w"> </span>is<span class="w"> </span>on<span class="w"> </span>the<span class="w"> </span>wall.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/PlotlineNotes&gt;</span>
+</pre></div>
+</div>
 <section id="the-id-attribute">
 <h2>The id attribute<a class="headerlink" href="#the-id-attribute" title="Link to this heading"></a></h2>
 <p>This is a reference to an existing plot line.
 This attribute is required. The plot line ID consists of the
 plot line prefix <strong>ac</strong> and a number.</p>
-<p>Example: <code class="docutils literal notranslate"><span class="pre">ac13</span></code></p>
 </section>
 </section>
 

@@ -162,17 +162,29 @@
 <h1>The &lt;Characters&gt; tag<a class="headerlink" href="#the-characters-tag" title="Link to this heading"></a></h1>
 <div class="admonition-characters admonition">
 <p class="admonition-title">&lt;Characters&gt;</p>
-<p>Purpose</p>
 <dl class="simple">
+<dt>Purpose</dt><dd><p>List the characters that are related to a section.</p>
+</dd>
 <dt>Attributes</dt><dd><ul class="simple">
 <li><p><a class="reference external" href="#the-ids-attribute">ids</a></p></li>
 </ul>
 </dd>
 </dl>
 </div>
+<p>This is an optional  list of references to existing characters.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The first character in the list is the section’s viewpoint character.</p>
+</div>
+<p>Example:</p>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;Characters</span><span class="w"> </span><span class="na">ids=</span><span class="s">&quot;cr2 cr5&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
+</pre></div>
+</div>
 <section id="the-ids-attribute">
 <h2>The ids attribute<a class="headerlink" href="#the-ids-attribute" title="Link to this heading"></a></h2>
-<p>Default: required</p>
+<p>This attribute is required. A character ID consists of the
+character prefix <strong>cr</strong> and a number.
+The IDs are separated by spaces.</p>
 </section>
 </section>
 
