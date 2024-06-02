@@ -8,7 +8,7 @@ The <DeathDate> tag
       Defines the death date of the character.
 
    Content
-      Plain text 
+      - Plain Text 
 
 The death date information is optional.
 

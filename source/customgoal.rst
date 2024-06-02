@@ -8,5 +8,5 @@ The <CustomGoal> tag
       Defines a custom replacement for the section's "Goal" field heading.
 
    Content
-      Plain text 
+      - Plain Text 
 

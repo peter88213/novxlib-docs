@@ -6,5 +6,8 @@ The <ChapterHeadingSuffix> tag
    
    Purpose
       Defines the custom suffix for chapter headings.
+      
+   Content
+      - Plain Text 
 
 

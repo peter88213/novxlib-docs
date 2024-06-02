@@ -8,7 +8,7 @@ The <ReferenceDate> tag
       Defines a reference date for the narrative.
 
    Content
-      Plain text 
+      - Plain Text 
 
 The reference date information is optional.
 

@@ -17,7 +17,7 @@ The <p> tag
       - `span <span.html>`__
       - `comment <comment.html>`__
       - `note <note.html>`__
-      - Plain text
+      - Plain Text
 
 All multiline text is put into paragraphs.
 

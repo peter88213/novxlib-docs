@@ -8,5 +8,5 @@ The <PartHeadingSuffix> tag
       Defines the custom suffix for part headings.
 
    Content
-      Plain text 
+      - Plain Text 
 

@@ -8,7 +8,7 @@ The <note-citation> tag
       Defines a marker for the footnote or endnote.
 
    Content
-      Plain text 
+      - Plain Text 
 
 This will be a marker in the body text of the exported
 ODT manuscript, linking to the footnote or endnote.

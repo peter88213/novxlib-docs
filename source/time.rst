@@ -8,7 +8,7 @@ The <Time> tag
       Defines the section's narrative start time.
 
    Content
-      Plain text 
+      - Plain Text 
 
 The time information is optional.
 

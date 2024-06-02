@@ -8,5 +8,5 @@ The <CustomChrGoals> tag
       Defines a custom replacement for the character's "Goals" field heading.
 
    Content
-      Plain text 
+      - Plain Text 
 

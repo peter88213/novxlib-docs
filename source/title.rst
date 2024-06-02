@@ -8,5 +8,5 @@ The <Title> tag
       Defines the element's title.
 
    Content
-      Plain text 
+      - Plain Text 
 

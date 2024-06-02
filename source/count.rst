@@ -8,6 +8,6 @@ The <Count> tag
       Defines the total number of words of the used sections.
 
    Content
-      Plain text 
+      - Plain Text 
 
 The content must represent an integer number.

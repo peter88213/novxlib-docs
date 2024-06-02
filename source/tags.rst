@@ -8,6 +8,6 @@ The <Tags> tag
       Defines the element's tags.
 
    Content
-      Plain text 
+      - Plain Text 
 
 Multiple tags are separated by semicolons.

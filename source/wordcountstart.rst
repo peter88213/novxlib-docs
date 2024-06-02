@@ -8,6 +8,6 @@ The <WordCountStart> tag
       Defines the total number of words where to start counting.
 
    Content
-      Plain text 
+      - Plain Text 
 
 The content must represent an integer number.

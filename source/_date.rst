@@ -6,6 +6,9 @@ The <date> tag
    
    Purpose
       Defines creation date of the comment.
+      
+   Content
+      - Plain Text 
 
 Date format: *YYYY-MM-DDThh:mm:ss*, according to ISO 8601.
 

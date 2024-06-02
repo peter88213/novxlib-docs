@@ -8,7 +8,7 @@ The <creator> tag
       Defines the creator of the comment.
 
    Content
-      Plain text 
+      - Plain Text 
 
 Example:
 

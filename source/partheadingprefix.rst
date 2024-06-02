@@ -8,5 +8,5 @@ The <PartHeadingPrefix> tag
       Defines the custom prefix for part headings.
 
    Content
-      Plain text 
+      - Plain Text 
 

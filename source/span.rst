@@ -15,7 +15,7 @@ The <span> tag
       - `strong <strong.html>`__
       - `comment <comment.html>`__
       - `note <note.html>`__
-      Plain text 
+      - Plain Text 
 
 The span is within a paragraph. Whole paragraphs in another language
 than the document language get the

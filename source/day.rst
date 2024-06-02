@@ -8,5 +8,5 @@ The <Day> tag
       Defines the day where the section starts.
 
    Content
-      Plain text 
+      - Plain Text 
 

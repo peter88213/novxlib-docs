@@ -8,5 +8,5 @@ The <CustomWorldBuilding> tag
       Defines a custom replacement for the section's "World building" field heading.
 
    Content
-      Plain text 
+      - Plain Text 
 

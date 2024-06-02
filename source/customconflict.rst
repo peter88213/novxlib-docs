@@ -8,5 +8,5 @@ The <CustomConflict> tag
       Defines a custom replacement for the section's "Conflict" field heading.
 
    Content
-      Plain text 
+      - Plain Text 
 

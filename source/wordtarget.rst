@@ -8,6 +8,6 @@ The <WordTarget> tag
       Defines the total number of words to achieve.
 
    Content
-      Plain text 
+      - Plain Text 
 
 The content must represent an integer number.

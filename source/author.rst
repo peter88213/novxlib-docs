@@ -8,6 +8,6 @@ The <Author> tag
       Defines the author's name.
 
    Content
-      Plain text 
+      - Plain Text 
 
 

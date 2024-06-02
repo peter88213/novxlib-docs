@@ -8,5 +8,5 @@ The <Path> tag
       Defines the relative path of a linked file.
 
    Content
-      Plain text 
+      - Plain Text 
 

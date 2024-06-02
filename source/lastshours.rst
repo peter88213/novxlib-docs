@@ -8,7 +8,7 @@ The <LastsHours> tag
       Defines the full number of hours minus days the section lasts.
 
    Content
-      Plain text 
+      - Plain Text 
 
 This is optional.
 The content must represent an integer number.

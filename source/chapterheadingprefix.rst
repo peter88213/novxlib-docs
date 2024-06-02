@@ -6,5 +6,8 @@ The <ChapterHeadingPrefix> tag
    
    Purpose
       Defines the custom prefix for chapter headings.
+      
+   Content
+      - Plain Text 
 
 

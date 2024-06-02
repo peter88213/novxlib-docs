@@ -8,6 +8,6 @@ The <WithUnused> tag
       Defines the total number of words including unused sections.
 
    Content
-      Plain text 
+      - Plain Text 
 
 The content must represent an integer number.

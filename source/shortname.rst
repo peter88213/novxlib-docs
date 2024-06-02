@@ -8,6 +8,6 @@ The <ShortName> tag
       Define a short name for the plot line.
 
    Content
-      Plain text 
+      - Plain Text 
 
 

@@ -8,7 +8,7 @@ The <BirthDate> tag
       Defines the birth date of the character.
 
    Content
-      Plain text 
+      - Plain Text 
 
 The birth date information is optional.
 

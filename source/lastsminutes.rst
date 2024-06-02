@@ -8,7 +8,7 @@ The <LastsMinutes> tag
       Defines the full number of minutes minus hours and days the section lasts.
 
    Content
-      Plain text 
+      - Plain Text 
 
 This is optional.
 The content must represent an integer number.

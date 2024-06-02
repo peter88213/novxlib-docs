@@ -8,7 +8,7 @@ The <Date> tag
       Defines the section's narrative start date.
    
    Content
-      Plain text 
+      - Plain Text 
 
 The date information is optional.
 

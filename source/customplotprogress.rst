@@ -8,5 +8,5 @@ The <CustomPlotProgress> tag
       Defines a custom replacement for the section's "Plot progress" field heading.
 
    Content
-      Plain text 
+      - Plain Text 
 

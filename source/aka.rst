@@ -8,6 +8,6 @@ The <Aka> tag
       Defines an alternate name for the character, location, or item.
       
    Content
-      Plain text 
+      - Plain Text 
 
 

@@ -8,5 +8,5 @@ The <CustomCharacterization> tag
       Defines a custom replacement for the section's "Characterization" field heading.
 
    Content
-      Plain text 
+      - Plain Text 
 

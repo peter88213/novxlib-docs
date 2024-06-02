@@ -8,5 +8,5 @@ The <CustomChrBio> tag
       Defines a custom replacement for the character's "Bio" field heading.
 
    Content
-      Plain text 
+      - Plain Text 
 

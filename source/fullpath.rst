@@ -8,7 +8,7 @@ The <FullPath> tag
       Defines the full path to the linked file.
 
    Content
-      Plain text 
+      - Plain Text 
      
 The full path is used if a link's path is invalid
 because the project file was moved in the file system.

@@ -12,5 +12,5 @@ The <strong> tag
       - `comment <comment.html>`__
       - `note <note.html>`__
       - `em <em.html>`__
-      Plain text 
+      - Plain Text 
       
