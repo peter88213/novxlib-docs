@@ -1,10 +1,11 @@
 ===================
 The <CHARACTER> tag
 ===================
-   
+
 .. admonition:: <CHARACTER>
    
    Purpose
+      Defines a character.
 
    Attributes
       - `id <#the-id-attribute>`__
@@ -26,12 +27,18 @@ The <CHARACTER> tag
 The id attribute
 ----------------
 
-Default: required
+This attribute is required. The character ID consists of the
+character prefix **cr** and a number.
+
+Example: ``cr13``
+
 
 The major attribute
 -------------------
 
-- 0: 
-- 1: 
+This indicates the character status for visual distinction in *novelibre*.
+
+- 0: Minor character.
+- 1: Major character.
 
 Default value: 0

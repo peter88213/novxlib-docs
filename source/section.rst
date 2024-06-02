@@ -1,7 +1,7 @@
 =================
 The <SECTION> tag
 =================
-   
+
 .. admonition:: <SECTION>
    
    Purpose
@@ -37,43 +37,47 @@ The <SECTION> tag
 The id attribute
 ----------------
 
-Default: required
+This attribute is required. The section ID consists of the
+section prefix **sc** and a number.
+
+Example: ``sc13``
+
 
 The append attribute
 --------------------
 
-- 0: 
-- 1: 
+- 0:
+- 1:
 
 Default value: 0
 
 The scene attribute
 -------------------
 
-- 0: 
-- 1: 
-- 2: 
-- 3: 
+- 0:
+- 1:
+- 2:
+- 3:
 
 Default value: 0
 
 The status attribute
 --------------------
 
-- 1: 
-- 2: 
-- 3: 
-- 4: 
-- 5: 
+- 1:
+- 2:
+- 3:
+- 4:
+- 5:
 
 Default value: 1
 
 The type attribute
 ------------------
 
-- 0: 
-- 1: 
-- 2: 
-- 3: 
+- 0:
+- 1:
+- 2:
+- 3:
 
 Default value: 0

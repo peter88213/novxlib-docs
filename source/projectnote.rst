@@ -1,7 +1,7 @@
 =====================
 The <PROJECTNOTE> tag
 =====================
-   
+
 .. admonition:: <PROJECTNOTE>
    
    Purpose
@@ -17,4 +17,7 @@ The <PROJECTNOTE> tag
 The id attribute
 ----------------
 
-Default: required
+This attribute is required. The project note ID consists of the
+project note prefix **pn** and a number.
+
+Example: ``pn13``

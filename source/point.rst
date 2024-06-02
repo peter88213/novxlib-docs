@@ -1,7 +1,7 @@
 ===============
 The <POINT> tag
 ===============
-   
+
 .. admonition:: <POINT>
    
    Purpose
@@ -19,4 +19,7 @@ The <POINT> tag
 The id attribute
 ----------------
 
-Default: required
+This attribute is required. The plot point ID consists of the
+plot line prefix **ap** and a number.
+
+Example: ``ap13``

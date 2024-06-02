@@ -1,7 +1,7 @@
 ==============
 The <ITEM> tag
 ==============
-   
+
 .. admonition:: <ITEM>
    
    Purpose
@@ -20,4 +20,8 @@ The <ITEM> tag
 The id attribute
 ----------------
 
-Default: required
+This attribute is required. The item ID consists of the
+item prefix **it** and a number.
+
+Example: ``it13``
+

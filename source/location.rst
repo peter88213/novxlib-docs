@@ -1,10 +1,11 @@
 ==================
 The <LOCATION> tag
 ==================
-   
+
 .. admonition:: <LOCATION>
    
    Purpose
+      Defines a location.
 
    Attributes
       - `id <#the-id-attribute>`__
@@ -20,4 +21,8 @@ The <LOCATION> tag
 The id attribute
 ----------------
 
-Default: required
+This attribute is required. The location ID consists of the
+location prefix **lc** and a number.
+
+Example: ``lc13``
+
