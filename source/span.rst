@@ -1,7 +1,7 @@
 ==============
 The <span> tag
 ==============
-   
+
 .. admonition:: <span>
    
    Purpose
@@ -14,6 +14,7 @@ The <span> tag
       - `strong <strong.html>`__
       - `comment <comment.html>`__
       - `note <note.html>`__
+      Plain text 
 
 The lang attribute
 ------------------

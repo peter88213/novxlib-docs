@@ -13,7 +13,11 @@ Example:
 
 .. code-block:: xml
 
+   <comment>
+   <creator>T.C. Hack</creator>
    <date>2024-05-30T13:04:04.34</date>
+   <p>Fight scene here</p>
+   </comment>
    
 .. hint:: 
 

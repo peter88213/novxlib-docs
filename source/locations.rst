@@ -7,6 +7,5 @@ The <LOCATIONS> tag
    Purpose
       Enclose the location definitions.
 
-
    Content
       - `LOCATION <location.html>`__

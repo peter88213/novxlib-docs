@@ -1,7 +1,7 @@
 ============
 The <em> tag
 ============
-   
+
 .. admonition:: <em>
    
    Purpose
@@ -12,3 +12,4 @@ The <em> tag
       - `comment <comment.html>`__
       - `note <note.html>`__
       - `strong <strong.html>`__
+      - Plain text

@@ -7,6 +7,8 @@ The <note-citation> tag
    Purpose
       Defines a marker for a footnote or endnote.
 
+   Content
+      Plain text 
 
 This will be a marker in the body text of the exported
 ODT manuscript, linking to the footnote or endnote.

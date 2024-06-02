@@ -1,7 +1,7 @@
 ===========
 The <p> tag
 ===========
-   
+
 .. admonition:: <p>
    
    Purpose
@@ -16,11 +16,12 @@ The <p> tag
       - `span <span.html>`__
       - `comment <comment.html>`__
       - `note <note.html>`__
+      - Plain text
 
 The style attribute
 -------------------
 
-- quotations: 
+- quotations:
 
 Default value: None
 

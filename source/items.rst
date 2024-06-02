@@ -5,7 +5,7 @@ The <ITEMS> tag
 .. admonition:: <ITEMS>
    
    Purpose
-      Enclose the item definitions.
+      Encloses the item definitions.
 
 
    Content

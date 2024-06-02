@@ -7,6 +7,9 @@ The <Time> tag
    Purpose
       Defines the start time of a section.
 
+   Content
+      Plain text 
+
 The time information is optional.
 
 Time format: *hh:mm:ss*, according to ISO 8601.

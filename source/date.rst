@@ -6,6 +6,9 @@ The <Date> tag
    
    Purpose
       Defines the start date of a section.
+   
+   Content
+      Plain text 
 
 The date information is optional.
 
