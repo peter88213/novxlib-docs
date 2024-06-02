@@ -7,7 +7,7 @@ The <span> tag
    Purpose
 
    Attributes
-      - lang
+      - `lang <#the-lang-attribute>`__
 
    Content
       - `em <em.html>`__

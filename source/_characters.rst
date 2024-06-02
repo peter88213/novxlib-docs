@@ -7,7 +7,7 @@ The <Characters> tag
    Purpose
 
    Attributes
-      - ids
+      - `ids <#the-ids-attribute>`__
 
 
 The ids attribute

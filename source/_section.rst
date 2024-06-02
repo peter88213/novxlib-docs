@@ -7,7 +7,7 @@ The <Section> tag
    Purpose
 
    Attributes
-      - id
+      - `id <#the-id-attribute>`__
 
 
 The id attribute

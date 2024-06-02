@@ -7,8 +7,8 @@ The <p> tag
    Purpose
 
    Attributes
-      - style
-      - lang
+      - `style <#the-style-attribute>`__
+      - `lang <#the-lang-attribute>`__
 
    Content
       - `em <em.html>`__

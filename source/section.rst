@@ -7,11 +7,11 @@ The <SECTION> tag
    Purpose
 
    Attributes
-      - id
-      - append
-      - scene
-      - status
-      - type
+      - `id <#the-id-attribute>`__
+      - `append <#the-append-attribute>`__
+      - `scene <#the-scene-attribute>`__
+      - `status <#the-status-attribute>`__
+      - `type <#the-type-attribute>`__
 
    Content
       - `Title <title.html>`__

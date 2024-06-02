@@ -7,13 +7,13 @@ The <PROJECT> tag
    Purpose
 
    Attributes
-      - renumberChapters
-      - workPhase
-      - saveWordCount
-      - romanPartNumbers
-      - romanChapterNumbers
-      - renumberWithinParts
-      - renumberParts
+      - `renumberChapters <#the-renumberchapters-attribute>`__
+      - `workPhase <#the-workphase-attribute>`__
+      - `saveWordCount <#the-savewordcount-attribute>`__
+      - `romanPartNumbers <#the-romanpartnumbers-attribute>`__
+      - `romanChapterNumbers <#the-romanchapternumbers-attribute>`__
+      - `renumberWithinParts <#the-renumberwithinparts-attribute>`__
+      - `renumberParts <#the-renumberparts-attribute>`__
 
    Content
       - `Title <title.html>`__

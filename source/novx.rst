@@ -1,15 +1,14 @@
 ==============
 The <novx> tag
 ==============
-
+   
 .. admonition:: <novx>
    
    Purpose
-      Encloses the data of a *novelibre* project.
 
    Attributes
-      - version
-      - lang
+      - `version <#the-version-attribute>`__
+      - `lang <#the-lang-attribute>`__
 
    Content
       - `PROJECT <project.html>`__

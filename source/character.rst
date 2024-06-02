@@ -7,8 +7,8 @@ The <CHARACTER> tag
    Purpose
 
    Attributes
-      - id
-      - major
+      - `id <#the-id-attribute>`__
+      - `major <#the-major-attribute>`__
 
    Content
       - `Title <title.html>`__

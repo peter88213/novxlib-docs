@@ -7,8 +7,8 @@ The <note> tag
    Purpose
 
    Attributes
-      - id
-      - class
+      - `id <#the-id-attribute>`__
+      - `class <#the-class-attribute>`__
 
    Content
       - `note-citation <note-citation.html>`__

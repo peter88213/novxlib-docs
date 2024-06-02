@@ -7,11 +7,11 @@ The <CHAPTER> tag
    Purpose
 
    Attributes
-      - id
-      - noNumber
-      - isTrash
-      - level
-      - type
+      - `id <#the-id-attribute>`__
+      - `noNumber <#the-nonumber-attribute>`__
+      - `isTrash <#the-istrash-attribute>`__
+      - `level <#the-level-attribute>`__
+      - `type <#the-type-attribute>`__
 
    Content
       - `Title <title.html>`__

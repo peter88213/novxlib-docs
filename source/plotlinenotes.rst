@@ -7,7 +7,7 @@ The <PlotlineNotes> tag
    Purpose
 
    Attributes
-      - id
+      - `id <#the-id-attribute>`__
 
    Content
       - `p <p.html>`__

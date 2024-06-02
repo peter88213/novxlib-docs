@@ -7,7 +7,7 @@ The <LOCATION> tag
    Purpose
 
    Attributes
-      - id
+      - `id <#the-id-attribute>`__
 
    Content
       - `Title <title.html>`__
