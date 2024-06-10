@@ -5,12 +5,11 @@ The <Date> tag
 .. admonition:: <Date>
    
    Purpose
-      Defines the section's narrative start date.
+      Defines a date.
    
    Content
       - Plain Text 
 
-The date information is optional.
 
 Date format: *YYYY-MM-DD*, according to ISO 8601.
 

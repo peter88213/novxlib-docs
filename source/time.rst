@@ -5,12 +5,11 @@ The <Time> tag
 .. admonition:: <Time>
    
    Purpose
-      Defines the section's narrative start time.
+      Defines a time.
 
    Content
       - Plain Text 
 
-The time information is optional.
 
 Time format: *hh:mm:ss*, according to ISO 8601.
 
