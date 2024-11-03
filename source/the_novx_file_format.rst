@@ -14,7 +14,7 @@ Depending on your web browser and your operating system, the
 *"text/xml"*.
 
 The XML structure and elements of *novx* files are described by the
-`novx Document Type Definition <https://github.com/peter88213/novxlib/tree/main/dtd>`__
+`novx Document Type Definition <https://github.com/peter88213/novelibre/tree/main/dtd>`__
 (DTD).
 
 In addition, descriptions of the elements and their attributes are provided below.
