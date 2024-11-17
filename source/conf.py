@@ -6,12 +6,12 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'novxlib documentation'
+project = 'novx file format documentation'
 copyright = '2024, peter88213'
 author = 'Peter Triesberger'
-version = 'Version 4.1+'
-release = '4.1.0'
-# The release is related to the novelibre application's major/minor version numbers.
+version = 'Version 1.4'
+release = '1.4'
+# The release is related to the novx DTD major/minor version numbers.
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

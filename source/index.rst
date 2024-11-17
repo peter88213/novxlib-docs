@@ -1,8 +1,8 @@
-=====================
-novxlib documentation
-=====================
+==============================
+novx file format documentation
+==============================
 
-This page refers to the latest `novxlib <https://github.com/peter88213/novxlib/>`__
+This page refers to the latest `novelibre <https://github.com/peter88213/novelibre/>`__
 release.
 
 .. toctree::
