@@ -9,8 +9,8 @@
 project = 'novx file format documentation'
 copyright = '2024, peter88213'
 author = 'Peter Triesberger'
-version = 'Version 1.4'
-release = '1.4'
+version = 'Version 1.5'
+release = '1.5'
 # The release is related to the novx DTD major/minor version numbers.
 
 # -- General configuration ---------------------------------------------------

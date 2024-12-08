@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="./">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Index &mdash; novx file format documentation 1.5 documentation</title>
+  <title>The &lt;Field&gt; tag &mdash; novx file format documentation 1.5 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
 
@@ -18,7 +19,7 @@
         <script src="_static/doctools.js?v=888ff710"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
-    <link rel="index" title="Index" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" /> 
 </head>
 
@@ -63,7 +64,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Index</li>
+      <li class="breadcrumb-item active">The &lt;Field&gt; tag</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -72,12 +73,35 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <section id="the-field-tag">
+<h1>The &lt;Field&gt; tag<a class="headerlink" href="#the-field-tag" title="Link to this heading"></a></h1>
+<div class="admonition-field admonition">
+<p class="admonition-title">&lt;Field&gt;</p>
+<dl class="simple">
+<dt>Purpose</dt><dd><p>Defines a custom data field.</p>
+</dd>
+<dt>Attributes</dt><dd><ul class="simple">
+<li><p><a class="reference external" href="#the-tag-attribute">tag</a></p></li>
+</ul>
+</dd>
+<dt>Content</dt><dd><ul class="simple">
+<li><p>Plain Text</p></li>
+</ul>
+</dd>
+</dl>
 </div>
+<p>Custom data fields allow plugins to save custom data without requiring
+a new DTD. This feature must be used carefully. Plugins that save fields
+shall provide an option to remove them from the project file.</p>
+<p><em>novelibre</em> reads the content as a string and stores it internally in a
+<em>Python</em> dictionary.</p>
+<section id="the-tag-attribute">
+<h2>The tag attribute<a class="headerlink" href="#the-tag-attribute" title="Link to this heading"></a></h2>
+<p>This attribute is required.
+The <em>tag</em> attribute is used as a tag in the internal dictionary holding the content.</p>
+<p>Example: <code class="docutils literal notranslate"><span class="pre">zim-notebook-abs</span></code></p>
+</section>
+</section>
 
 
            </div>
