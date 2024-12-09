@@ -5,7 +5,7 @@ The <ShortName> tag
 .. admonition:: <ShortName>
    
    Purpose
-      Define a short name for the plot line.
+      Defines a plot line's short name.
 
    Content
       - Plain Text 

@@ -5,7 +5,7 @@ The <comment> tag
 .. admonition:: <comment>
    
    Purpose
-      Defines a comment in the section content.
+      Defines a comment in a section content.
 
    Content
       - `creator <creator.html>`__

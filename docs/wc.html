@@ -22,7 +22,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="The &lt;WithUnused&gt; tag" href="withunused.html" />
-    <link rel="prev" title="The &lt;Title&gt; tag" href="title.html" /> 
+    <link rel="prev" title="The &lt;ul&gt; tag" href="ul.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -50,22 +50,24 @@
               <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="the_novx_file_format.html">The novx file format</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="aka.html">The &lt;Aka&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="arc.html">The &lt;ARC&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="arcs.html">The &lt;ARCS&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="aka.html">The &lt;Aka&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="author.html">The &lt;Author&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bio.html">The &lt;Bio&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="birthdate.html">The &lt;BirthDate&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter.html">The &lt;CHAPTER&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapterheadingprefix.html">The &lt;ChapterHeadingPrefix&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapterheadingsuffix.html">The &lt;ChapterHeadingSuffix&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapters.html">The &lt;CHAPTERS&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="character.html">The &lt;CHARACTER&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="characters.html">The &lt;CHARACTERS&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="chapterheadingprefix.html">The &lt;ChapterHeadingPrefix&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="chapterheadingsuffix.html">The &lt;ChapterHeadingSuffix&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="_characters.html">The &lt;Characters&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comment.html">The &lt;comment&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="conflict.html">The &lt;Conflict&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="content.html">The &lt;Content&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="count.html">The &lt;Count&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="creator.html">The &lt;creator&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="customcharacterization.html">The &lt;CustomCharacterization&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="customchrbio.html">The &lt;CustomChrBio&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="customchrgoals.html">The &lt;CustomChrGoals&gt; tag</a></li>
@@ -75,9 +77,12 @@
 <li class="toctree-l2"><a class="reference internal" href="customplotprogress.html">The &lt;CustomPlotProgress&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="customworldbuilding.html">The &lt;CustomWorldBuilding&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="date.html">The &lt;Date&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_date.html">The &lt;date&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="day.html">The &lt;Day&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="deathdate.html">The &lt;DeathDate&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="desc.html">The &lt;Desc&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="em.html">The &lt;em&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="field.html">The &lt;Field&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="fullname.html">The &lt;FullName&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="fullpath.html">The &lt;FullPath&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="goal.html">The &lt;Goal&gt; tag</a></li>
@@ -85,48 +90,44 @@
 <li class="toctree-l2"><a class="reference internal" href="item.html">The &lt;ITEM&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="items.html">The &lt;ITEMS&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="_items.html">The &lt;Items&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="location.html">The &lt;LOCATION&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="locations.html">The &lt;LOCATIONS&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lastsdays.html">The &lt;LastsDays&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lastshours.html">The &lt;LastsHours&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="lastsminutes.html">The &lt;LastsMinutes&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="li.html">The &lt;li&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="link.html">The &lt;Link&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="location.html">The &lt;LOCATION&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="locations.html">The &lt;LOCATIONS&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="_locations.html">The &lt;Locations&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="note.html">The &lt;note&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="note-citation.html">The &lt;note-citation&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="notes.html">The &lt;Notes&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="novx.html">The &lt;novx&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="outcome.html">The &lt;Outcome&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="p.html">The &lt;p&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="partheadingprefix.html">The &lt;PartHeadingPrefix&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="partheadingsuffix.html">The &lt;PartHeadingSuffix&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="path.html">The &lt;Path&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotlinenotes.html">The &lt;PlotlineNotes&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="point.html">The &lt;POINT&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="progress.html">The &lt;PROGRESS&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="project.html">The &lt;PROJECT&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="projectnote.html">The &lt;PROJECTNOTE&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="projectnotes.html">The &lt;PROJECTNOTES&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="partheadingprefix.html">The &lt;PartHeadingPrefix&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="partheadingsuffix.html">The &lt;PartHeadingSuffix&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="path.html">The &lt;Path&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="plotlinenotes.html">The &lt;PlotlineNotes&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="referencedate.html">The &lt;ReferenceDate&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="section.html">The &lt;SECTION&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="_section.html">The &lt;Section&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sections.html">The &lt;Sections&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="shortname.html">The &lt;ShortName&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="span.html">The &lt;span&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="strong.html">The &lt;strong&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tags.html">The &lt;Tags&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="time.html">The &lt;Time&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="title.html">The &lt;Title&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ul.html">The &lt;ul&gt; tag</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">The &lt;WC&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="withunused.html">The &lt;WithUnused&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="wordcountstart.html">The &lt;WordCountStart&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="wordtarget.html">The &lt;WordTarget&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="comment.html">The &lt;comment&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="creator.html">The &lt;creator&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="_date.html">The &lt;date&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="em.html">The &lt;em&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="li.html">The &lt;li&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="note.html">The &lt;note&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="note-citation.html">The &lt;note-citation&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="novx.html">The &lt;novx&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="p.html">The &lt;p&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="span.html">The &lt;span&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="strong.html">The &lt;strong&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ul.html">The &lt;ul&gt; tag</a></li>
 </ul>
 </li>
 </ul>
@@ -176,7 +177,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="title.html" class="btn btn-neutral float-left" title="The &lt;Title&gt; tag" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="ul.html" class="btn btn-neutral float-left" title="The &lt;ul&gt; tag" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="withunused.html" class="btn btn-neutral float-right" title="The &lt;WithUnused&gt; tag" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

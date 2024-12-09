@@ -23,22 +23,24 @@ In addition, descriptions of the elements and their attributes are provided belo
    :maxdepth: 1
    :caption: XML tag reference
 
+   aka
    arc
    arcs
-   aka
    author
    bio
    birthdate
    chapter
+   chapterheadingprefix
+   chapterheadingsuffix
    chapters
    character
    characters
-   chapterheadingprefix
-   chapterheadingsuffix
    _characters
+   comment
    conflict
    content
    count
+   creator
    customcharacterization
    customchrbio
    customchrgoals
@@ -48,9 +50,12 @@ In addition, descriptions of the elements and their attributes are provided belo
    customplotprogress
    customworldbuilding
    date
+   _date
    day
    deathdate
    desc
+   em
+   field
    fullname
    fullpath
    goal
@@ -58,45 +63,41 @@ In addition, descriptions of the elements and their attributes are provided belo
    item
    items
    _items
-   location
-   locations
    lastsdays
    lastshours
    lastsminutes
+   li
    link
+   location
+   locations
    _locations
+   note
+   note-citation
    notes
+   novx
    outcome
+   p
+   partheadingprefix
+   partheadingsuffix
+   path
+   plotlinenotes
    point
    progress
    project
    projectnote
    projectnotes
-   partheadingprefix
-   partheadingsuffix
-   path
-   plotlinenotes
    referencedate
    section
    _section
    sections
    shortname
+   span
+   strong
    tags
    time
    title
+   ul
    wc
    withunused
    wordcountstart
    wordtarget
-   comment
-   creator
-   _date
-   em
-   li
-   note
-   note-citation
-   novx
-   p
-   span
-   strong
-   ul

@@ -5,7 +5,7 @@ The <Characters> tag
 .. admonition:: <Characters>
    
    Purpose
-      Lists the characters that are related to the section.
+      Lists the characters that are related to a section.
 
    Attributes
       - `ids <#the-ids-attribute>`__

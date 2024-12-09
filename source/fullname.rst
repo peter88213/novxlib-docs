@@ -5,7 +5,7 @@ The <FullName> tag
 .. admonition:: <FullName>
    
    Purpose
-      Defines a full name for the character.
+      Defines a character's full name.
 
    Content
       - Plain Text 

@@ -5,7 +5,7 @@ The <note-citation> tag
 .. admonition:: <note-citation>
    
    Purpose
-      Defines a marker for the footnote or endnote.
+      Defines a footnote or endnote marker.
 
    Content
       - Plain Text 

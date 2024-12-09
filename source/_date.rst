@@ -5,7 +5,7 @@ The <date> tag
 .. admonition:: <date>
    
    Purpose
-      Defines creation date of the comment.
+      Defines creation date of a comment.
       
    Content
       - Plain Text 

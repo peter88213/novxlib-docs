@@ -5,7 +5,7 @@ The <CustomOutcome> tag
 .. admonition:: <CustomOutcome>
    
    Purpose
-      Defines a custom replacement for the section's "Outcome" field heading.
+      Defines a custom replacement for the section "Outcome" field heading.
 
    Content
       - Plain Text 

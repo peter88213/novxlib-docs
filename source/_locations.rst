@@ -5,7 +5,7 @@ The <Locations> tag
 .. admonition:: <Locations>
    
    Purpose
-      Lists the locations that are related to the section.
+      Lists the locations that are related to a section.
 
    Attributes
       - `ids <#the-ids-attribute>`__
