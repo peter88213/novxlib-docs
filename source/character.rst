@@ -5,7 +5,7 @@ The <CHARACTER> tag
 .. admonition:: <CHARACTER>
    
    Purpose
-      Defines a character of the story.
+      Defines a character in the story.
 
    Attributes
       - `id <#the-id-attribute>`__

@@ -5,7 +5,7 @@ The <Desc> tag
 .. admonition:: <Desc>
    
    Purpose
-      Defines a description of the element.
+      Defines the description of an element.
 
    Content
       - `p <p.html>`__

@@ -5,7 +5,7 @@ The <DeathDate> tag
 .. admonition:: <DeathDate>
    
    Purpose
-      Defines the death date of the character.
+      Defines a character's death date.
 
    Content
       - Plain Text 

@@ -5,7 +5,7 @@ The <PlotlineNotes> tag
 .. admonition:: <PlotlineNotes>
    
    Purpose
-      Defines plot line notes of the section. 
+      Defines a section's plot line notes. 
 
    Attributes
       - `id <#the-id-attribute>`__
