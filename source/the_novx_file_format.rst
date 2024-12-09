@@ -6,7 +6,7 @@ The novx file format
 any text editor that reads and writes utf-8 encoded plain text.
 
 If you put a style sheet named
-`novx.css <https://github.com/peter88213/novxlib/tree/main/css>`__
+`novx.css <https://github.com/peter88213/novelibre/tree/main/css>`__
 into the current project folder, you can view the *.novx* project file
 with a web browser.
 Depending on your web browser and your operating system, the
