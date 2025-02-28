@@ -1,6 +1,6 @@
 # novxlib-docs
 
-English online documentation for the [novxlib](https://github.com/peter88213/novxlib) library.
+English online documentation for the *.novx* file format used by [novelibre](https://github.com/peter88213/novelibre).
 
 The pages are created with the help of the [dtd2rst.py](https://github.com/peter88213/dtd2rst) tool.
 
