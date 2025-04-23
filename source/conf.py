@@ -7,10 +7,10 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'novx file format documentation'
-copyright = '2024, peter88213'
+copyright = '2025, peter88213'
 author = 'Peter Triesberger'
-version = 'Version 1.5'
-release = '1.5'
+version = 'Version 1.6'
+release = '1.6'
 # The release is related to the novx DTD major/minor version numbers.
 
 # -- General configuration ---------------------------------------------------
