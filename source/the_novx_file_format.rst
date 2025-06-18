@@ -99,6 +99,7 @@ In addition, descriptions of the elements and their attributes are provided belo
    time
    title
    ul
+   viewpoint
    wc
    withunused
    wordcountstart
