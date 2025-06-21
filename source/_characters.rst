@@ -12,9 +12,6 @@ The <Characters> tag
 
 This is an optional  list of references to existing characters.
 
-.. note::
-
-   The first character in the list is the section's viewpoint character.
 
 Example:
 
