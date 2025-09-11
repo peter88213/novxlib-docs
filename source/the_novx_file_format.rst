@@ -55,8 +55,6 @@ In addition, descriptions of the elements and their attributes are provided belo
    deathdate
    desc
    em
-   epigraph
-   epigraphsrc
    field
    fullname
    fullpath

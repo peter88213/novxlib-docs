@@ -6,14 +6,14 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The &lt;CHAPTER&gt; tag &mdash; novx file format documentation 1.7.1 documentation</title>
+  <title>The &lt;CHAPTER&gt; tag &mdash; novx file format documentation 1.8.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
   
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=b9b35135"></script>
+      <script src="_static/documentation_options.js?v=371fd5e7"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
@@ -53,10 +53,11 @@
 <li class="toctree-l2"><a class="reference internal" href="birthdate.html">The &lt;BirthDate&gt; tag</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">The &lt;CHAPTER&gt; tag</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#the-id-attribute">The id attribute</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#the-nonumber-attribute">The noNumber attribute</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#the-istrash-attribute">The isTrash attribute</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#the-level-attribute">The level attribute</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#the-type-attribute">The type attribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-level-attribute">The level attribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-istrash-attribute">The isTrash attribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-nonumber-attribute">The noNumber attribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-hasepigraph-attribute">The hasEpigraph attribute</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="chapterheadingprefix.html">The &lt;ChapterHeadingPrefix&gt; tag</a></li>
@@ -84,8 +85,6 @@
 <li class="toctree-l2"><a class="reference internal" href="deathdate.html">The &lt;DeathDate&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="desc.html">The &lt;Desc&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="em.html">The &lt;em&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="epigraph.html">The &lt;Epigraph&gt; tag</a></li>
-<li class="toctree-l2"><a class="reference internal" href="epigraphsrc.html">The &lt;EpigraphSrc&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="field.html">The &lt;Field&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="fullname.html">The &lt;FullName&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="fullpath.html">The &lt;FullPath&gt; tag</a></li>
@@ -170,10 +169,11 @@
 </dd>
 <dt>Attributes</dt><dd><ul class="simple">
 <li><p><a class="reference external" href="#the-id-attribute">id</a></p></li>
-<li><p><a class="reference external" href="#the-nonumber-attribute">noNumber</a></p></li>
-<li><p><a class="reference external" href="#the-istrash-attribute">isTrash</a></p></li>
-<li><p><a class="reference external" href="#the-level-attribute">level</a></p></li>
 <li><p><a class="reference external" href="#the-type-attribute">type</a></p></li>
+<li><p><a class="reference external" href="#the-level-attribute">level</a></p></li>
+<li><p><a class="reference external" href="#the-istrash-attribute">isTrash</a></p></li>
+<li><p><a class="reference external" href="#the-nonumber-attribute">noNumber</a></p></li>
+<li><p><a class="reference external" href="#the-hasepigraph-attribute">hasEpigraph</a></p></li>
 </ul>
 </dd>
 <dt>Content</dt><dd><ul class="simple">
@@ -192,19 +192,11 @@
 chapter prefix <strong>ch</strong> and a number.</p>
 <p>Example: <code class="docutils literal notranslate"><span class="pre">ch13</span></code></p>
 </section>
-<section id="the-nonumber-attribute">
-<h2>The noNumber attribute<a class="headerlink" href="#the-nonumber-attribute" title="Link to this heading"></a></h2>
+<section id="the-type-attribute">
+<h2>The type attribute<a class="headerlink" href="#the-type-attribute" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>0: Auto-number this chapter, if applicable.</p></li>
-<li><p>1: Exclude this chapter from auto-numbering.</p></li>
-</ul>
-<p>Default value: 0</p>
-</section>
-<section id="the-istrash-attribute">
-<h2>The isTrash attribute<a class="headerlink" href="#the-istrash-attribute" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>0: This is a chapter or part.</p></li>
-<li><p>1: This chapter is the novelibre project’s “trash bin”.</p></li>
+<li><p>0: Normal.</p></li>
+<li><p>1: Unused.</p></li>
 </ul>
 <p>Default value: 0</p>
 </section>
@@ -216,11 +208,27 @@ chapter prefix <strong>ch</strong> and a number.</p>
 </ul>
 <p>Default value: 2</p>
 </section>
-<section id="the-type-attribute">
-<h2>The type attribute<a class="headerlink" href="#the-type-attribute" title="Link to this heading"></a></h2>
+<section id="the-istrash-attribute">
+<h2>The isTrash attribute<a class="headerlink" href="#the-istrash-attribute" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>0: Normal.</p></li>
-<li><p>1: Unused.</p></li>
+<li><p>0: This is a chapter or part.</p></li>
+<li><p>1: This chapter is the novelibre project’s “trash bin”.</p></li>
+</ul>
+<p>Default value: 0</p>
+</section>
+<section id="the-nonumber-attribute">
+<h2>The noNumber attribute<a class="headerlink" href="#the-nonumber-attribute" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>0: Auto-number this chapter, if applicable.</p></li>
+<li><p>1: Exclude this chapter from auto-numbering.</p></li>
+</ul>
+<p>Default value: 0</p>
+</section>
+<section id="the-hasepigraph-attribute">
+<h2>The hasEpigraph attribute<a class="headerlink" href="#the-hasepigraph-attribute" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>0: There is no epigraph specified for this chapter.</p></li>
+<li><p>1: The chapter’s first section is an epigraph, if used.</p></li>
 </ul>
 <p>Default value: 0</p>
 </section>
