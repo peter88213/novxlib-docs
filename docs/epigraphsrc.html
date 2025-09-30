@@ -6,21 +6,21 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The &lt;Viewpoint&gt; tag &mdash; novx file format documentation 1.8.1 documentation</title>
+  <title>The &lt;EpigraphSrc&gt; tag &mdash; novx file format documentation 1.7.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
   
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=53d005a3"></script>
+      <script src="_static/documentation_options.js?v=b9b35135"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="The &lt;WC&gt; tag" href="wc.html" />
-    <link rel="prev" title="The &lt;ul&gt; tag" href="ul.html" /> 
+    <link rel="next" title="The &lt;Field&gt; tag" href="field.html" />
+    <link rel="prev" title="The &lt;Epigraph&gt; tag" href="epigraph.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -77,6 +77,8 @@
 <li class="toctree-l2"><a class="reference internal" href="deathdate.html">The &lt;DeathDate&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="desc.html">The &lt;Desc&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="em.html">The &lt;em&gt; tag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="epigraph.html">The &lt;Epigraph&gt; tag</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">The &lt;EpigraphSrc&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="field.html">The &lt;Field&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="fullname.html">The &lt;FullName&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="fullpath.html">The &lt;FullPath&gt; tag</a></li>
@@ -119,10 +121,7 @@
 <li class="toctree-l2"><a class="reference internal" href="time.html">The &lt;Time&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="title.html">The &lt;Title&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ul.html">The &lt;ul&gt; tag</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">The &lt;Viewpoint&gt; tag</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#the-id-attribute">The id attribute</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="viewpoint.html">The &lt;Viewpoint&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="wc.html">The &lt;WC&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="withunused.html">The &lt;WithUnused&gt; tag</a></li>
 <li class="toctree-l2"><a class="reference internal" href="wordcountstart.html">The &lt;WordCountStart&gt; tag</a></li>
@@ -146,7 +145,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="the_novx_file_format.html">The novx file format</a></li>
-      <li class="breadcrumb-item active">The &lt;Viewpoint&gt; tag</li>
+      <li class="breadcrumb-item active">The &lt;EpigraphSrc&gt; tag</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -155,40 +154,29 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="the-viewpoint-tag">
-<h1>The &lt;Viewpoint&gt; tag<a class="headerlink" href="#the-viewpoint-tag" title="Link to this heading"></a></h1>
-<div class="admonition-viewpoint admonition">
-<p class="admonition-title">&lt;Viewpoint&gt;</p>
+  <section id="the-epigraphsrc-tag">
+<h1>The &lt;EpigraphSrc&gt; tag<a class="headerlink" href="#the-epigraphsrc-tag" title="Link to this heading"></a></h1>
+<div class="admonition-epigraphsrc admonition">
+<p class="admonition-title">&lt;EpigraphSrc&gt;</p>
 <dl class="simple">
-<dt>Purpose</dt><dd><p>Defines a section’s viewpoint character.</p>
+<dt>Purpose</dt><dd><p>Defines the source of a chapter’s epigraph.</p>
 </dd>
-<dt>Attributes</dt><dd><ul class="simple">
-<li><p><a class="reference external" href="#the-id-attribute">id</a></p></li>
+<dt>Content</dt><dd><ul class="simple">
+<li><p>Plain Text</p></li>
 </ul>
 </dd>
 </dl>
 </div>
-<p>The section’s viewpoint can be entered in the section’s
-properties view, or via menu entries in <em>novelibre</em>.
-The viewpoint is optional.</p>
-<p>Example:</p>
-<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;Viewpoint</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;cr2&quot;</span><span class="w"> </span><span class="nt">/&gt;</span>
-</pre></div>
-</div>
-<section id="the-id-attribute">
-<h2>The id attribute<a class="headerlink" href="#the-id-attribute" title="Link to this heading"></a></h2>
-<p>This is a reference to an existing character.
-This attribute is required. The character ID consists of the
-character prefix <strong>cr</strong> and a number.</p>
-</section>
+<p>Usually the epigraph’s source is exported only together
+with a non-empty <a class="reference external" href="epigraph.html">epigraph</a>.</p>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="ul.html" class="btn btn-neutral float-left" title="The &lt;ul&gt; tag" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="wc.html" class="btn btn-neutral float-right" title="The &lt;WC&gt; tag" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="epigraph.html" class="btn btn-neutral float-left" title="The &lt;Epigraph&gt; tag" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="field.html" class="btn btn-neutral float-right" title="The &lt;Field&gt; tag" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

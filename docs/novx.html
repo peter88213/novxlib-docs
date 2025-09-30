@@ -6,14 +6,14 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The &lt;novx&gt; tag &mdash; novx file format documentation 1.8.0 documentation</title>
+  <title>The &lt;novx&gt; tag &mdash; novx file format documentation 1.8.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
   
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=371fd5e7"></script>
+      <script src="_static/documentation_options.js?v=53d005a3"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
@@ -196,14 +196,15 @@ minor version numbers against its built-in reference version number.</p>
 <section id="the-xml-lang-attribute">
 <h2>The xml:lang attribute<a class="headerlink" href="#the-xml-lang-attribute" title="Link to this heading"></a></h2>
 <p>The optional locale is for ODF document spell check control.</p>
-<p>The attribute has the form <code class="docutils literal notranslate"><span class="pre">&lt;Language</span> <span class="pre">code&gt;-&lt;Country</span> <span class="pre">code&gt;</span></code>,
+<p>The attribute has the form <code class="docutils literal notranslate"><span class="pre">&lt;Language</span> <span class="pre">code&gt;</span></code> or
+<code class="docutils literal notranslate"><span class="pre">&lt;Language</span> <span class="pre">code&gt;-&lt;Country</span> <span class="pre">code&gt;</span></code>,
 where the language code is according to ISO 639-1,
-and the country code is according to ISO 3166-2.</p>
+and the optional country code is according to ISO 3166-2.</p>
 <p>Example: <code class="docutils literal notranslate"><span class="pre">en-GB</span></code> is for British English.</p>
 <ul class="simple">
 <li><p>If the <em>xml:lang</em> attribute is not set, the system locale is used.</p></li>
 <li><p>If the <em>xml:lang</em> attribute does not look plausible,
-it is replaced with <em>zxx-none</em>,
+it is replaced with <em>zxx</em>,
 which means “no linguistic information at all”.</p></li>
 </ul>
 </section>

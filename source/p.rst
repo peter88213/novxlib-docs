@@ -33,8 +33,9 @@ The xml:lang attribute
 
 The optional locale is for ODF document spell check control.
 
-The attribute has the form ``<Language code>-<Country code>``,
+The attribute has the form ``<Language code>`` or
+``<Language code>-<Country code>``,
 where the language code is according to ISO 639-1,
-and the country code is according to ISO 3166-2.
+and the optional country code is according to ISO 3166-2.
 
 Example: ``en-GB`` is for British English.
