@@ -60,6 +60,11 @@ In addition, descriptions of the elements and their attributes are provided belo
    fullpath
    goal
    goals
+   h5
+   h6
+   h7
+   h8
+   h9
    item
    items
    _items
