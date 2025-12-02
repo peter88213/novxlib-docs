@@ -11,6 +11,9 @@ The <h8> tag
       - `xml:lang <#the-xml-lang-attribute>`__
 
    Content
+      - `em <em.html>`__
+      - `strong <strong.html>`__
+      - `span <span.html>`__
       - Plain Text
 
 When exporting to ODT, *novelibre* converts this to "Heading 8".
