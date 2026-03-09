@@ -21,6 +21,6 @@ The id attribute
 ----------------
 
 This attribute is required. The plot point ID consists of the
-plot line prefix **ap** and a number.
+plot point prefix **ap** and a number.
 
 Example: ``ap13``
