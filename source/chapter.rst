@@ -9,6 +9,7 @@ The <CHAPTER> tag
 
    Attributes
       - `id <#the-id-attribute>`__
+      - `color <#the-color-attribute>`__
       - `type <#the-type-attribute>`__
       - `level <#the-level-attribute>`__
       - `isTrash <#the-istrash-attribute>`__
@@ -29,6 +30,15 @@ This attribute is required. The chapter ID consists of the
 chapter prefix **ch** and a number.
 
 Example: ``ch13``
+
+The color attribute
+-------------------
+
+This attribute is optional.
+The color is specified according to the tkinter conventions,
+either as hexadecimal RGB value, or as color name.
+
+Examples: ``#FFFFFF``, ``red``
 
 The type attribute
 ------------------

@@ -9,6 +9,7 @@ The <SECTION> tag
 
    Attributes
       - `id <#the-id-attribute>`__
+      - `color <#the-color-attribute>`__
       - `append <#the-append-attribute>`__
       - `scene <#the-scene-attribute>`__
       - `status <#the-status-attribute>`__
@@ -43,6 +44,15 @@ section prefix **sc** and a number.
 
 Example: ``sc13``
 
+
+The color attribute
+-------------------
+
+This attribute is optional.
+The color is specified according to the tkinter conventions,
+either as hexadecimal RGB value, or as color name.
+
+Examples: ``#FFFFFF``, ``red``
 
 The append attribute
 --------------------

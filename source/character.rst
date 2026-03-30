@@ -9,6 +9,7 @@ The <CHARACTER> tag
 
    Attributes
       - `id <#the-id-attribute>`__
+      - `color <#the-color-attribute>`__
       - `major <#the-major-attribute>`__
 
    Content
@@ -32,6 +33,14 @@ character prefix **cr** and a number.
 
 Example: ``cr13``
 
+The color attribute
+-------------------
+
+This attribute is optional.
+The color is specified according to the tkinter conventions,
+either as hexadecimal RGB value, or as color name.
+
+Examples: ``#FFFFFF``, ``red``
 
 The major attribute
 -------------------
