@@ -32,8 +32,8 @@ The color attribute
 -------------------
 
 This attribute is optional.
-The color is specified according to the tkinter conventions,
-either as hexadecimal RGB value, or as color name.
+The color is specified according to the tkinter conventions
+as a hexadecimal RGB value.
 
-Examples: ``#FFFFFF``, ``red``
+Example: ``#ffffff``
 
