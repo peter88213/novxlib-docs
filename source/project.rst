@@ -8,6 +8,7 @@ The <PROJECT> tag
       Defines the project settings.
 
    Attributes
+      - `color <#the-color-attribute>`__
       - `renumberChapters <#the-renumberchapters-attribute>`__
       - `workPhase <#the-workphase-attribute>`__
       - `saveWordCount <#the-savewordcount-attribute>`__
@@ -36,6 +37,15 @@ The <PROJECT> tag
       - `WordCountStart <wordcountstart.html>`__
       - `WordTarget <wordtarget.html>`__
       - `ReferenceDate <referencedate.html>`__
+
+The color attribute
+-------------------
+
+This attribute is optional.
+The color is specified according to the tkinter conventions
+as a hexadecimal RGB value.
+
+Example: ``#ffffff``
 
 The renumberChapters attribute
 ------------------------------

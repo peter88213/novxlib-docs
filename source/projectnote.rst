@@ -9,6 +9,7 @@ The <PROJECTNOTE> tag
 
    Attributes
       - `id <#the-id-attribute>`__
+      - `color <#the-color-attribute>`__
 
    Content
       - `Title <title.html>`__
@@ -22,3 +23,13 @@ This attribute is required. The project note ID consists of the
 project note prefix **pn** and a number.
 
 Example: ``pn13``
+
+The color attribute
+-------------------
+
+This attribute is optional.
+The color is specified according to the tkinter conventions
+as a hexadecimal RGB value.
+
+Example: ``#ffffff``
+

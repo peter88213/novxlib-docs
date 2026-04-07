@@ -6,14 +6,14 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The &lt;PROJECTNOTE&gt; tag &mdash; novx file format documentation 1.10.0 documentation</title>
+  <title>The &lt;PROJECTNOTE&gt; tag &mdash; novx file format documentation 1.10.1 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
   
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=76b3955f"></script>
+      <script src="_static/documentation_options.js?v=127c451b"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
@@ -113,6 +113,7 @@
 <li class="toctree-l2"><a class="reference internal" href="project.html">The &lt;PROJECT&gt; tag</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">The &lt;PROJECTNOTE&gt; tag</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#the-id-attribute">The id attribute</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#the-color-attribute">The color attribute</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="projectnotes.html">The &lt;PROJECTNOTES&gt; tag</a></li>
@@ -169,6 +170,7 @@
 </dd>
 <dt>Attributes</dt><dd><ul class="simple">
 <li><p><a class="reference external" href="#the-id-attribute">id</a></p></li>
+<li><p><a class="reference external" href="#the-color-attribute">color</a></p></li>
 </ul>
 </dd>
 <dt>Content</dt><dd><ul class="simple">
@@ -184,6 +186,13 @@
 <p>This attribute is required. The project note ID consists of the
 project note prefix <strong>pn</strong> and a number.</p>
 <p>Example: <code class="docutils literal notranslate"><span class="pre">pn13</span></code></p>
+</section>
+<section id="the-color-attribute">
+<h2>The color attribute<a class="headerlink" href="#the-color-attribute" title="Link to this heading"></a></h2>
+<p>This attribute is optional.
+The color is specified according to the tkinter conventions
+as a hexadecimal RGB value.</p>
+<p>Example: <code class="docutils literal notranslate"><span class="pre">#ffffff</span></code></p>
 </section>
 </section>
 
