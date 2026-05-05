@@ -8,5 +8,5 @@ The pages are created with the help of the [dtd2rst.py](https://github.com/peter
 
 The *novxib* documentation pages are published under the 
 [Open Publication license](https://opencontent.org/openpub).
-For more details consult the [LICENSE](https://github.com/peter88213/novxlib-docs/blob/main/LICENSE) file.
+For more details consult the [LICENSE](LICENSE) file.
 
